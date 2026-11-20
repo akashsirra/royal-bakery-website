@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #241711;
+  background: #faf6ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  --cream: #faf6ef;
+  --cream-warm: #f2ebe0;
+  --paper: #fffdf9;
+  --cocoa: #241711;
+  --cocoa-soft: #4a372d;
+  --muted: #7c6b5e;
+  --gold: #b8863b;
+  --gold-soft: #d9b87c;
+  --gold-tint: rgba(184, 134, 59, 0.12);
+  --border: #e6dccd;
+  --border-strong: #d5c5ae;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 84px; background: var(--cream); }
+body { margin: 0; min-width: 320px; background: var(--cream); color: var(--cocoa); }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; }
+::selection { background: var(--gold); color: var(--paper); }

@@ -298,7 +298,7 @@ function App() {
           </div>
 
           <div className="product-grid">
-            {visibleProducts.map((product, index) => {
+            {visibleProducts.map(product => {
               const inTray = tray.find(item => item.id === product.id)
               return (
                 <article className="product-card" key={product.id}>

@@ -2462,3 +2462,490 @@ h1 em, h2 em, h3 em {
   font-weight: 500;
   cursor: pointer;
 }
+
+/* ========== FEATURED SECTION ========== */
+.featured {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+}
+
+.featured-grid {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.featured-card {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 12px 28px rgba(36, 23, 17, 0.08);
+}
+
+.featured-thumb {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.featured-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-info {
+  flex: 1;
+}
+
+.featured-cat {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+.featured-info h3 {
+  font-size: 15px;
+  margin: 4px 0 6px;
+  line-height: 1.3;
+}
+
+.featured-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--cocoa);
+}
+
+@media (max-width: 900px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== PRICE FILTER ========== */
+.price-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.price-filter span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.price-pill {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--cocoa-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.price-pill:hover {
+  border-color: var(--gold);
+}
+
+.price-pill.active {
+  background: var(--cocoa);
+  color: var(--paper);
+  border-color: var(--cocoa);
+}
+
+/* ========== MOBILE NAV FIX ========== */
+@media (max-width: 900px) {
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(320px, 85vw);
+    height: 100vh;
+    background: var(--paper);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 90px 28px 40px;
+    gap: 8px;
+    box-shadow: -12px 0 40px rgba(0,0,0,0.12);
+    transform: translateX(105%);
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 45;
+    border-left: 1px solid var(--border);
+  }
+
+  .nav.nav-open {
+    transform: translateX(0);
+  }
+
+  .nav a {
+    font-size: 16px;
+    padding: 12px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav .nav-cta {
+    margin-top: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Backdrop when menu is open */
+  .nav.nav-open::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 12, 8, 0.45);
+    z-index: -1;
+    left: -100vw;
+    width: 100vw;
+  }
+}
+
+/* =========================================================
+   FULL REDESIGN – RICH BURGUNDY & CREAM
+   ========================================================= */
+
+/* Better typography */
+h1, h2, h3 {
+  font-family: 'Playfair Display', 'Plus Jakarta Sans', serif;
+  letter-spacing: -0.02em;
+}
+
+h1 em, h2 em, h3 em {
+  color: var(--burgundy);
+  font-style: italic;
+}
+
+/* Announcement bar */
+.announcement {
+  background: var(--burgundy-deep);
+  color: #f8e9ec;
+  letter-spacing: 1.8px;
+}
+
+/* Header */
+.header {
+  background: rgba(255, 253, 249, 0.92);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+}
+
+.nav .nav-cta {
+  background: var(--burgundy);
+  color: white;
+  border-radius: 8px;
+}
+
+.nav .nav-cta:hover {
+  background: var(--burgundy-deep);
+  color: white;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background: var(--burgundy);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: var(--burgundy-deep);
+}
+
+.btn-secondary {
+  border-radius: 8px;
+  border-color: var(--border-strong);
+}
+
+.btn-secondary:hover {
+  border-color: var(--burgundy);
+  background: var(--gold-tint);
+}
+
+/* Hero improvements */
+.hero {
+  background: linear-gradient(180deg, #fffdf9 0%, #faf6f1 100%);
+}
+
+.kicker {
+  color: var(--burgundy);
+}
+
+.hero-pillars svg {
+  color: var(--burgundy);
+}
+
+/* Showcase frame */
+.showcase-frame {
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(42, 21, 32, 0.08);
+}
+
+.showcase-badge {
+  background: var(--gold-tint);
+  color: var(--burgundy);
+}
+
+/* Featured section */
+.featured {
+  background: var(--paper);
+}
+
+.featured-card {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  transition: all 0.25s ease;
+}
+
+.featured-card:hover {
+  border-color: var(--burgundy);
+  box-shadow: 0 16px 40px rgba(155, 45, 60, 0.08);
+  transform: translateY(-4px);
+}
+
+.featured-cat {
+  color: var(--burgundy);
+}
+
+.featured-price {
+  color: var(--burgundy-deep);
+  font-weight: 700;
+}
+
+/* Menu rows */
+.menu-row {
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.menu-row:hover {
+  background: var(--paper);
+  border-color: var(--burgundy);
+}
+
+.card-add-btn {
+  border-radius: 8px;
+}
+
+.card-add-btn.added {
+  background: var(--burgundy);
+  color: white;
+}
+
+/* Category tabs */
+.tab.active {
+  border-color: var(--burgundy);
+}
+
+.tab-pill-bg {
+  background: var(--burgundy);
+}
+
+/* Price pills */
+.price-pill.active {
+  background: var(--burgundy);
+  border-color: var(--burgundy);
+  color: white;
+}
+
+/* Specialties cards */
+.specialty-card:hover {
+  border-color: var(--burgundy);
+}
+
+.specialty-tag {
+  color: var(--burgundy);
+}
+
+/* Scroll progress */
+.scroll-progress-bar {
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-soft), var(--burgundy));
+}
+
+/* Dark mode adjustments for new palette */
+.site-shell.dark {
+  --cream: #1a1215;
+  --cream-warm: #22181c;
+  --paper: #2a1f24;
+  --cocoa: #f8eef0;
+  --cocoa-soft: #d4b8c0;
+  --muted: #a88a94;
+  --gold: #c45c6a;
+  --gold-soft: #e08a96;
+  --gold-tint: rgba(196, 92, 106, 0.15);
+  --border: #3d2e34;
+  --border-strong: #4e3c44;
+  --burgundy: #c45c6a;
+  --burgundy-deep: #9b2d3c;
+}
+
+/* Theme toggle */
+
+
+
+
+/* ========== SINGLE LOGO BACKGROUND ========== */
+.site-shell {
+  position: relative;
+  background-color: var(--cream);
+}
+
+.site-shell::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: min(650px, 85vw);
+  height: min(650px, 85vw);
+  transform: translate(-50%, -50%);
+  background-image: url("/royal-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.11;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.site-shell > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ========== DARK MODE (Burgundy version) ========== */
+.site-shell.dark {
+  --cream: #1a1215;
+  --cream-warm: #22181c;
+  --paper: #2a1f24;
+  --cocoa: #f8eef0;
+  --cocoa-soft: #d4b8c0;
+  --muted: #a88a94;
+  --gold: #c45c6a;
+  --gold-soft: #e08a96;
+  --gold-tint: rgba(196, 92, 106, 0.15);
+  --border: #3d2e34;
+  --border-strong: #4e3c44;
+  --burgundy: #c45c6a;
+  --burgundy-deep: #9b2d3c;
+  --burgundy-soft: #e08a96;
+  background: var(--cream);
+  color: var(--cocoa);
+}
+
+.site-shell.dark .header {
+  background: rgba(26, 18, 21, 0.92);
+  border-bottom-color: var(--border);
+}
+
+.site-shell.dark .announcement {
+  background: #120c0e;
+  color: var(--gold-soft);
+}
+
+.site-shell.dark .btn-primary {
+  background: var(--burgundy);
+  color: #1a1215;
+}
+
+.site-shell.dark .btn-primary:hover {
+  background: var(--burgundy-soft);
+}
+
+.site-shell.dark .menu-row,
+.site-shell.dark .featured-card,
+.site-shell.dark .specialty-card,
+.site-shell.dark .info-card {
+  background: var(--paper);
+  border-color: var(--border);
+}
+
+.site-shell.dark
+
+/* Theme toggle button */
+
+
+.theme-toggle:hover {
+  transform: scale(1.08);
+}
+
+
+/* ========== THEME TOGGLE ========== */
+.theme-toggle {
+  position: fixed !important;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999 !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  color: var(--cocoa);
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* ========== CONTACT / FOOTER SAFETY ========== */
+.contact,
+.visit,
+.footer {
+  position: relative;
+  z-index: 2;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 28px 24px;
+}
+
+.footer a {
+  white-space: nowrap;
+}

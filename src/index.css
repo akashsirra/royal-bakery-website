@@ -1,26 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  color: #241711;
-  background: #faf6ef;
+  color: #2a1520;
+  background: #faf6f1;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 
-  --cream: #faf6ef;
-  --cream-warm: #f2ebe0;
+  /* Rich Burgundy & Cream */
+  --cream: #faf6f1;
+  --cream-warm: #f3ebe3;
   --paper: #fffdf9;
-  --cocoa: #241711;
-  --cocoa-soft: #4a372d;
-  --muted: #7c6b5e;
-  --gold: #b8863b;
-  --gold-soft: #d9b87c;
-  --gold-tint: rgba(184, 134, 59, 0.12);
-  --border: #e6dccd;
-  --border-strong: #d5c5ae;
+  --cocoa: #2a1520;
+  --cocoa-soft: #4a2c38;
+  --muted: #8a6b75;
+  --gold: #9b2d3c;           /* now burgundy */
+  --gold-soft: #c45c6a;
+  --gold-tint: rgba(155, 45, 60, 0.10);
+  --border: #eadfd8;
+  --border-strong: #d9c7c0;
+  --burgundy: #9b2d3c;
+  --burgundy-deep: #6e1f2b;
+  --burgundy-soft: #c45c6a;
 }
 
 * { box-sizing: border-box; }
@@ -30,4 +34,4 @@ button, input { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 a { color: inherit; text-decoration: none; }
 button { cursor: pointer; }
-::selection { background: var(--gold); color: var(--paper); }
+::selection { background: var(--burgundy); color: var(--paper); }

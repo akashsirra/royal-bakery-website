@@ -1,849 +1,191 @@
 export const products = [
-  {
-    "id": "kaju-barfi",
-    "name": "Kaju Barfi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-kunafa-sandwich",
-    "name": "Kaju Kunafa Sandwich",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-kunafa-roll",
-    "name": "Kaju Kunafa Roll",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-dry-fruit",
-    "name": "Kaju Dry Fruit",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-sangam",
-    "name": "Kaju Sangam",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "royal-kaju-delight",
-    "name": "Royal Kaju Delight",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-badam-bites",
-    "name": "Kaju Badam Bites",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-bites",
-    "name": "Kaju Bites",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-chocolate-bites",
-    "name": "Kaju Chocolate Bites",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-white-chocolate",
-    "name": "Kaju White Chocolate",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "white-kalakand",
-    "name": "White Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "moti-kalakand",
-    "name": "Moti Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "double-decker-kalakand",
-    "name": "Double Decker Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "jug-kalakand",
-    "name": "Jug Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹560/kg"
-  },
-  {
-    "id": "roasted-kalakand",
-    "name": "Roasted Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹560/kg"
-  },
-  {
-    "id": "horlicks-kalakand",
-    "name": "Horlicks Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "dry-fruit-kalakand",
-    "name": "Dry Fruit Kalakand",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "white-kova",
-    "name": "White Kova",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "kova-rolls",
-    "name": "Kova Rolls",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "kova-kajjikayalu-laddu",
-    "name": "Kova Kajjikayalu Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹560/kg"
-  },
-  {
-    "id": "ghee-pala-kova",
-    "name": "Ghee Pala Kova",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "chitti-pala-kova",
-    "name": "Chitti Pala Kova",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "ice-cream-barfi",
-    "name": "Ice Cream Barfi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹560/kg"
-  },
-  {
-    "id": "rose-barfi",
-    "name": "Rose Barfi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹560/kg"
-  },
-  {
-    "id": "royal-kova-crunch-sweet",
-    "name": "Royal Kova Crunch Sweet",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "royal-special-kulfi-sweet",
-    "name": "Royal Special Kulfi Sweet",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "royal-special-cutlet-sweet",
-    "name": "Royal Special Cutlet Sweet",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "malai-kaja",
-    "name": "Malai Kaja",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "malai-puri",
-    "name": "Malai Puri",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "paneer-jalebi",
-    "name": "Paneer Jalebi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "bombay-halwa",
-    "name": "Bombay Halwa",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "ghee-bandar-halwa",
-    "name": "Ghee Bandar Halwa",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "rasgulla",
-    "name": "Rasgulla",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "gulab-jamun",
-    "name": "Gulab Jamun",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "kala-jamun",
-    "name": "Kala Jamun",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "bengali-apple",
-    "name": "Bengali Apple",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "bengali-badusha",
-    "name": "Bengali Badusha",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "bengali-kharbuja",
-    "name": "Bengali Kharbuja",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "chitti-gulab-jamun",
-    "name": "Chitti Gulab Jamun",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "chitti-rasgulla",
-    "name": "Chitti Rasgulla",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "sugar-free-ragi-laddu",
-    "name": "Sugar-Free Ragi Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹800/kg"
-  },
-  {
-    "id": "sugar-free-oats-laddu",
-    "name": "Sugar-Free Oats Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹800/kg"
-  },
-  {
-    "id": "dry-fruit-laddu",
-    "name": "Dry Fruit Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹880/kg"
-  },
-  {
-    "id": "dry-fruit-chikki",
-    "name": "Dry Fruit Chikki",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹880/kg"
-  },
-  {
-    "id": "ghee-soan-papdi",
-    "name": "Ghee Soan Papdi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "ghee-mysore-pak",
-    "name": "Ghee Mysore Pak",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "ghee-bellam-sunnundalu",
-    "name": "Ghee Bellam Sunnundalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "ghee-ragi-laddu",
-    "name": "Ghee Ragi Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹520/kg"
-  },
-  {
-    "id": "ghee-honey-mysore-pak",
-    "name": "Ghee Honey Mysore Pak",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹400/kg"
-  },
-  {
-    "id": "sanna-boondi-laddu",
-    "name": "Sanna Boondi Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹240/kg"
-  },
-  {
-    "id": "motichoor-laddu",
-    "name": "Motichoor Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹360/kg"
-  },
-  {
-    "id": "pedda-boondi-laddu",
-    "name": "Pedda Boondi Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "thakkudu-laddu",
-    "name": "Thakkudu Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "nuvulu-laddu",
-    "name": "Nuvulu Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹480/kg"
-  },
-  {
-    "id": "kakinada-gottam-kaja",
-    "name": "Kakinada Gottam Kaja",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "tapeswaram-kaja",
-    "name": "Tapeswaram Kaja",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "chitti-kaja",
-    "name": "Chitti Kaja",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "pakam-kajjikayalu",
-    "name": "Pakam Kajjikayalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹360/kg"
-  },
-  {
-    "id": "dry-kajjikayalu",
-    "name": "Dry Kajjikayalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹360/kg"
-  },
-  {
-    "id": "gorimitti",
-    "name": "Gorimitti",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹240/kg"
-  },
-  {
-    "id": "jangiri",
-    "name": "Jangiri",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹240/kg"
-  },
-  {
-    "id": "besan-laddu",
-    "name": "Besan Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹480/kg"
-  },
-  {
-    "id": "mysore-pak",
-    "name": "Mysore Pak",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹240/kg"
-  },
-  {
-    "id": "bellam-boondi",
-    "name": "Bellam Boondi",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "pala-munjulu",
-    "name": "Pala Munjulu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹400/kg"
-  },
-  {
-    "id": "bobbatlu",
-    "name": "Bobbatlu",
-    "category": "Sweets",
-    "unit": "pc",
-    "menuPrice": "₹15/pc"
-  },
-  {
-    "id": "bellam-gavvalu",
-    "name": "Bellam Gavvalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "bellam-kommulu",
-    "name": "Bellam Kommulu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "sanna-boondi-achu",
-    "name": "Sanna Boondi Achu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "pedda-boondi-achu",
-    "name": "Pedda Boondi Achu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "kaju-achu",
-    "name": "Kaju Achu",
-    "category": "Sweets",
-    "unit": "pack",
-    "menuPrice": "₹250/250g"
-  },
-  {
-    "id": "ghee-ravva-laddu",
-    "name": "Ghee Ravva Laddu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹400/kg"
-  },
-  {
-    "id": "kobbari-noju-undalu",
-    "name": "Kobbari Noju Undalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "pakundalu",
-    "name": "Pakundalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "arisalu",
-    "name": "Arisalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "nuvulu-arisalu",
-    "name": "Nuvulu Arisalu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹360/kg"
-  },
-  {
-    "id": "garajilu",
-    "name": "Garajilu",
-    "category": "Sweets",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "bellam-dry-fruit-putharekulu",
-    "name": "Bellam Dry Fruit Putharekulu",
-    "category": "Sweets",
-    "unit": "pc",
-    "menuPrice": "₹35/pc"
-  },
-  {
-    "id": "bellam-plain-putharekulu",
-    "name": "Bellam Plain Putharekulu",
-    "category": "Sweets",
-    "unit": "pc",
-    "menuPrice": "₹25/pc"
-  },
-  {
-    "id": "sugar-dry-fruit-putharekulu",
-    "name": "Sugar Dry Fruit Putharekulu",
-    "category": "Sweets",
-    "unit": "pc",
-    "menuPrice": "₹30/pc"
-  },
-  {
-    "id": "sugar-free-dry-fruit-putharekulu",
-    "name": "Sugar-Free Dry Fruit Putharekulu",
-    "category": "Sweets",
-    "unit": "pc",
-    "menuPrice": "₹40/pc"
-  },
-  {
-    "id": "kaju-fry",
-    "name": "Kaju Fry",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹1,200/kg"
-  },
-  {
-    "id": "kaju-pakodi",
-    "name": "Kaju Pakodi",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹800/kg"
-  },
-  {
-    "id": "dry-fruit-mixture",
-    "name": "Dry Fruit Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹600/kg"
-  },
-  {
-    "id": "dry-fruit-samosa",
-    "name": "Dry Fruit Samosa",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹480/kg"
-  },
-  {
-    "id": "kaju-agra-mixture",
-    "name": "Kaju Agra Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹400/kg"
-  },
-  {
-    "id": "beetroot-appadalu",
-    "name": "Beetroot Appadalu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹360/kg"
-  },
-  {
-    "id": "navaratna-mixture",
-    "name": "Navaratna Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "agra-mixture",
-    "name": "Agra Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "boondi-mixture",
-    "name": "Boondi Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "pedda-appadalu",
-    "name": "Pedda Appadalu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "chitti-chegodilu",
-    "name": "Chitti Chegodilu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "pappu-chegodilu",
-    "name": "Pappu Chegodilu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "chitti-appadalu",
-    "name": "Chitti Appadalu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "vam-karapusa",
-    "name": "Vam Karapusa",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "murukulu",
-    "name": "Murukulu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "ribbon-pakodi",
-    "name": "Ribbon Pakodi",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "hot-sticks",
-    "name": "Hot Sticks",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "sanna-karapusa",
-    "name": "Sanna Karapusa",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "tomato-karapusa",
-    "name": "Tomato Karapusa",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "atukulu-mixture",
-    "name": "Atukulu Mixture",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹320/kg"
-  },
-  {
-    "id": "jantikalu",
-    "name": "Jantikalu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "hot-gulab-puvvulu",
-    "name": "Hot Gulab Puvvulu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "sweet-gulab-puvvulu",
-    "name": "Sweet Gulab Puvvulu",
-    "category": "Hot",
-    "unit": "kg",
-    "menuPrice": "₹280/kg"
-  },
-  {
-    "id": "potato-chips",
-    "name": "Potato Chips",
-    "category": "Hot",
-    "unit": "pack",
-    "menuPrice": "₹40"
-  },
-  {
-    "id": "palli-chikki",
-    "name": "Palli Chikki",
-    "category": "Hot",
-    "unit": "pack",
-    "menuPrice": "₹80"
-  },
-  {
-    "id": "nuvulu-chikki",
-    "name": "Nuvulu Chikki",
-    "category": "Hot",
-    "unit": "pack",
-    "menuPrice": "₹80"
-  },
-  {
-    "id": "pumpkin-seeds-chikki",
-    "name": "Pumpkin Seeds Chikki",
-    "category": "Hot",
-    "unit": "pack",
-    "menuPrice": "₹140"
-  },
-  {
-    "id": "chicken-puff",
-    "name": "Chicken Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹30/pc"
-  },
-  {
-    "id": "chicken-roll",
-    "name": "Chicken Roll",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹35/pc"
-  },
-  {
-    "id": "egg-puff",
-    "name": "Egg Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹25/pc"
-  },
-  {
-    "id": "veg-puff",
-    "name": "Veg Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹20/pc"
-  },
-  {
-    "id": "paneer-puff",
-    "name": "Paneer Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹35/pc"
-  },
-  {
-    "id": "full-egg-puff",
-    "name": "Full Egg Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹35/pc"
-  },
-  {
-    "id": "chicken-keema-puff",
-    "name": "Chicken Keema Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹45/pc"
-  },
-  {
-    "id": "chicken-leg-puff",
-    "name": "Chicken Leg Puff",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹90/pc"
-  },
-  {
-    "id": "chicken-hot-dog",
-    "name": "Chicken Hot Dog",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹90/pc"
-  },
-  {
-    "id": "paneer-hot-dog",
-    "name": "Paneer Hot Dog",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹70/pc"
-  },
-  {
-    "id": "chicken-cheese-bread",
-    "name": "Chicken Cheese Bread",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹100/pc"
-  },
-  {
-    "id": "chicken-leg",
-    "name": "Chicken Leg",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹70/pc"
-  },
-  {
-    "id": "dilpasand",
-    "name": "Dilpasand",
-    "category": "Hot",
-    "unit": "pc",
-    "menuPrice": "₹50/pc"
-  }
-];
+  // ========== KAJU SWEETS ==========
+  { id: "kaju-barfi", name: "Kaju Barfi", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200, featured: true },
+  { id: "kaju-kunafa-sandwich", name: "Kaju Kunafa Sandwich", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "kaju-kunafa-roll", name: "Kaju Kunafa Roll", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "kaju-dry-fruit", name: "Kaju Dry Fruit", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200, featured: true },
+  { id: "kaju-sangam", name: "Kaju Sangam", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "royal-kaju-delight", name: "Royal Kaju Delight", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200, featured: true },
+  { id: "kaju-badam-bites", name: "Kaju Badam Bites", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "kaju-bites", name: "Kaju Bites", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "kaju-chocolate-bites", name: "Kaju Chocolate Bites", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+  { id: "kaju-white-chocolate", name: "Kaju White Chocolate", category: "Sweets", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200 },
+
+  // ========== KALAKAND ==========
+  { id: "white-kalakand", name: "White Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "moti-kalakand", name: "Moti Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "double-decker-kalakand", name: "Double Decker Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "jug-kalakand", name: "Jug Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹560/kg", priceValue: 560 },
+  { id: "roasted-kalakand", name: "Roasted Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹560/kg", priceValue: 560 },
+  { id: "horlicks-kalakand", name: "Horlicks Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+  { id: "dry-fruit-kalakand", name: "Dry Fruit Kalakand", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+
+  // ========== KOVA ==========
+  { id: "white-kova", name: "White Kova", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "kova-rolls", name: "Kova Rolls", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "kova-kajjikayalu-laddu", name: "Kova Kajjikayalu Laddu", category: "Sweets", unit: "kg", menuPrice: "₹560/kg", priceValue: 560 },
+  { id: "ghee-pala-kova", name: "Ghee Pala Kova", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+  { id: "chitti-pala-kova", name: "Chitti Pala Kova", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "ice-cream-barfi", name: "Ice Cream Barfi", category: "Sweets", unit: "kg", menuPrice: "₹560/kg", priceValue: 560 },
+  { id: "rose-barfi", name: "Rose Barfi", category: "Sweets", unit: "kg", menuPrice: "₹560/kg", priceValue: 560 },
+
+  // ========== ROYAL SPECIAL ==========
+  { id: "royal-kova-crunch", name: "Royal Kova Crunch Sweet", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600, featured: true },
+  { id: "royal-special-kulfi", name: "Royal Special Kulfi Sweet", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+  { id: "royal-special-cutlet", name: "Royal Special Cutlet Sweet", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+  { id: "malai-kaja", name: "Malai Kaja", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "malai-puri", name: "Malai Puri", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "paneer-jalebi", name: "Paneer Jalebi", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "bombay-halwa", name: "Bombay Halwa", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "ghee-bandar-halwa", name: "Ghee Bandar Halwa", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+
+  // ========== BENGALI ==========
+  { id: "rasgulla", name: "Rasgulla", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320, featured: true },
+  { id: "gulab-jamun", name: "Gulab Jamun", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320, featured: true },
+  { id: "kala-jamun", name: "Kala Jamun", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "bengali-apple", name: "Bengali Apple", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "bengali-badusha", name: "Bengali Badusha", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "bengali-kharbuja", name: "Bengali Kharbuja", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "chitti-gulab-jamun", name: "Chitti Gulab Jamun", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "chitti-rasgulla", name: "Chitti Rasgulla", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+
+  // ========== SUGAR-FREE ==========
+  { id: "sugar-free-ragi-laddu", name: "Sugar-Free Ragi Laddu", category: "Sweets", unit: "kg", menuPrice: "₹800/kg", priceValue: 800 },
+  { id: "sugar-free-oats-laddu", name: "Sugar-Free Oats Laddu", category: "Sweets", unit: "kg", menuPrice: "₹800/kg", priceValue: 800 },
+
+  // ========== OTHER SWEETS ==========
+  { id: "dry-fruit-laddu", name: "Dry Fruit Laddu", category: "Sweets", unit: "kg", menuPrice: "₹880/kg", priceValue: 880 },
+  { id: "dry-fruit-chikki", name: "Dry Fruit Chikki", category: "Sweets", unit: "kg", menuPrice: "₹880/kg", priceValue: 880 },
+  { id: "ghee-soan-papdi", name: "Ghee Soan Papdi", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "ghee-mysore-pak", name: "Ghee Mysore Pak", category: "Sweets", unit: "kg", menuPrice: "₹600/kg", priceValue: 600, featured: true },
+  { id: "ghee-bellam-sunnundalu", name: "Ghee Bellam Sunnundalu", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "ghee-ragi-laddu", name: "Ghee Ragi Laddu", category: "Sweets", unit: "kg", menuPrice: "₹520/kg", priceValue: 520 },
+  { id: "ghee-honey-mysore-pak", name: "Ghee Honey Mysore Pak", category: "Sweets", unit: "kg", menuPrice: "₹400/kg", priceValue: 400 },
+  { id: "sanna-boondi-laddu", name: "Sanna Boondi Laddu", category: "Sweets", unit: "kg", menuPrice: "₹240/kg", priceValue: 240 },
+  { id: "motichoor-laddu", name: "Motichoor Laddu", category: "Sweets", unit: "kg", menuPrice: "₹360/kg", priceValue: 360, featured: true },
+  { id: "pedda-boondi-laddu", name: "Pedda Boondi Laddu", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "thakkudu-laddu", name: "Thakkudu Laddu", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "nuvulu-laddu", name: "Nuvulu Laddu", category: "Sweets", unit: "kg", menuPrice: "₹480/kg", priceValue: 480 },
+  { id: "kakinada-gottam-kaja", name: "Kakinada Gottam Kaja", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "tapeswaram-kaja", name: "Tapeswaram Kaja", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "chitti-kaja", name: "Chitti Kaja", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "pakam-kajjikayalu", name: "Pakam Kajjikayalu", category: "Sweets", unit: "kg", menuPrice: "₹360/kg", priceValue: 360 },
+  { id: "dry-kajjikayalu", name: "Dry Kajjikayalu", category: "Sweets", unit: "kg", menuPrice: "₹360/kg", priceValue: 360 },
+  { id: "gorimitti", name: "Gorimitti", category: "Sweets", unit: "kg", menuPrice: "₹240/kg", priceValue: 240 },
+  { id: "jangiri", name: "Jangiri", category: "Sweets", unit: "kg", menuPrice: "₹240/kg", priceValue: 240 },
+  { id: "besan-laddu", name: "Besan Laddu", category: "Sweets", unit: "kg", menuPrice: "₹480/kg", priceValue: 480 },
+  { id: "mysore-pak", name: "Mysore Pak", category: "Sweets", unit: "kg", menuPrice: "₹240/kg", priceValue: 240 },
+  { id: "bellam-boondi", name: "Bellam Boondi", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "pala-munjulu", name: "Pala Munjulu", category: "Sweets", unit: "kg", menuPrice: "₹400/kg", priceValue: 400 },
+  { id: "bobbatlu", name: "Bobbatlu", category: "Sweets", unit: "pc", menuPrice: "₹15/pc", priceValue: 15 },
+  { id: "bellam-gavvalu", name: "Bellam Gavvalu", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "bellam-kommulu", name: "Bellam Kommulu", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "sanna-boondi-achu", name: "Sanna Boondi Achu", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "pedda-boondi-achu", name: "Pedda Boondi Achu", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "kaju-achu", name: "Kaju Achu", category: "Sweets", unit: "pack", menuPrice: "₹250/250g", priceValue: 250 },
+  { id: "ghee-ravva-laddu", name: "Ghee Ravva Laddu", category: "Sweets", unit: "kg", menuPrice: "₹400/kg", priceValue: 400 },
+  { id: "kobbari-noju-undalu", name: "Kobbari Noju Undalu", category: "Sweets", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "pakundalu", name: "Pakundalu", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "arisalu", name: "Arisalu", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "nuvulu-arisalu", name: "Nuvulu Arisalu", category: "Sweets", unit: "kg", menuPrice: "₹360/kg", priceValue: 360 },
+  { id: "garajilu", name: "Garajilu", category: "Sweets", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+
+  // ========== PUTHAREKULU ==========
+  { id: "bellam-dry-fruit-putharekulu", name: "Bellam Dry Fruit Putharekulu", category: "Sweets", unit: "pc", menuPrice: "₹35/pc", priceValue: 35 },
+  { id: "bellam-plain-putharekulu", name: "Bellam Plain Putharekulu", category: "Sweets", unit: "pc", menuPrice: "₹25/pc", priceValue: 25 },
+  { id: "sugar-dry-fruit-putharekulu", name: "Sugar Dry Fruit Putharekulu", category: "Sweets", unit: "pc", menuPrice: "₹30/pc", priceValue: 30 },
+  { id: "sugar-free-dry-fruit-putharekulu", name: "Sugar-Free Dry Fruit Putharekulu", category: "Sweets", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+
+  // ========== NAMKEEN & SAVOURIES ==========
+  { id: "kaju-fry", name: "Kaju Fry", category: "Namkeen", unit: "kg", menuPrice: "₹1,200/kg", priceValue: 1200, featured: true },
+  { id: "kaju-pakodi", name: "Kaju Pakodi", category: "Namkeen", unit: "kg", menuPrice: "₹800/kg", priceValue: 800 },
+  { id: "dry-dry-fruit-mixture", name: "Dry Fruit Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹600/kg", priceValue: 600 },
+  { id: "dry-fruit-samosa", name: "Dry Fruit Samosa", category: "Namkeen", unit: "kg", menuPrice: "₹480/kg", priceValue: 480 },
+  { id: "kaju-agra-mixture", name: "Kaju Agra Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹400/kg", priceValue: 400 },
+  { id: "beetroot-appadalu", name: "Beetroot Appadalu", category: "Namkeen", unit: "kg", menuPrice: "₹360/kg", priceValue: 360 },
+  { id: "navaratna-mixture", name: "Navaratna Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "agra-mixture", name: "Agra Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "boondi-mixture", name: "Boondi Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "pedda-appadalu", name: "Pedda Appadalu", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "chitti-chegodilu", name: "Chitti Chegodilu", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "pappu-chegodilu", name: "Pappu Chegodilu", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "chitti-appadalu", name: "Chitti Appadalu", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "vam-karapusa", name: "Vam Karapusa", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "murukulu", name: "Murukulu", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "ribbon-pakodi", name: "Ribbon Pakodi", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "hot-sticks", name: "Hot Sticks", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "sanna-karapusa", name: "Sanna Karapusa", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "tomato-karapusa", name: "Tomato Karapusa", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "atukulu-mixture", name: "Atukulu Mixture", category: "Namkeen", unit: "kg", menuPrice: "₹320/kg", priceValue: 320 },
+  { id: "jantikalu", name: "Jantikalu", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "hot-gulab-puvvulu", name: "Hot Gulab Puvvulu", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "sweet-gulab-puvvulu", name: "Sweet Gulab Puvvulu", category: "Namkeen", unit: "kg", menuPrice: "₹280/kg", priceValue: 280 },
+  { id: "potato-chips", name: "Potato Chips", category: "Namkeen", unit: "pack", menuPrice: "₹40", priceValue: 40 },
+  { id: "palli-chikki", name: "Palli Chikki", category: "Namkeen", unit: "pack", menuPrice: "₹80", priceValue: 80 },
+  { id: "nuvulu-chikki", name: "Nuvulu Chikki", category: "Namkeen", unit: "pack", menuPrice: "₹80", priceValue: 80 },
+  { id: "pumpkin-seeds-chikki", name: "Pumpkin Seeds Chikki", category: "Namkeen", unit: "pack", menuPrice: "₹140", priceValue: 140 },
+
+  // ========== BAKERY ==========
+  { id: "roll-cake", name: "Roll Cake", category: "Bakery", unit: "pc", menuPrice: "₹20/pc", priceValue: 20 },
+  { id: "vanilla-cake", name: "Vanilla Cake", category: "Bakery", unit: "pc", menuPrice: "₹25/pc", priceValue: 25 },
+  { id: "chocolate-cake", name: "Chocolate Cake", category: "Bakery", unit: "pc", menuPrice: "₹30/pc", priceValue: 30, featured: true },
+  { id: "chocolate-plum-cake", name: "Chocolate Plum Cake", category: "Bakery", unit: "pc", menuPrice: "₹80/pc", priceValue: 80 },
+  { id: "chocolate-plain-cake", name: "Chocolate Plain Cake", category: "Bakery", unit: "pc", menuPrice: "₹80/pc", priceValue: 80 },
+  { id: "vanilla-sponge-cake", name: "Vanilla Sponge Cake", category: "Bakery", unit: "pc", menuPrice: "₹70/pc", priceValue: 70 },
+  { id: "red-velvet-muffin", name: "Red Velvet Muffin", category: "Bakery", unit: "pc", menuPrice: "₹100/pc", priceValue: 100 },
+  { id: "chocolate-muffin", name: "Chocolate Muffin", category: "Bakery", unit: "pc", menuPrice: "₹100/pc", priceValue: 100 },
+  { id: "banana-muffin", name: "Banana Muffin", category: "Bakery", unit: "pc", menuPrice: "₹120/pc", priceValue: 120 },
+  { id: "cake-rusk", name: "Cake Rusk", category: "Bakery", unit: "pack", menuPrice: "₹90", priceValue: 90 },
+  { id: "milk-cake", name: "Milk Cake", category: "Bakery", unit: "pack", menuPrice: "₹90", priceValue: 90 },
+  { id: "cup-cake", name: "Cup Cake", category: "Bakery", unit: "pc", menuPrice: "₹50/pc", priceValue: 50 },
+  { id: "halwa-bun", name: "Halwa Bun", category: "Bakery", unit: "pc", menuPrice: "₹25/pc", priceValue: 25 },
+  { id: "moon-biscuits", name: "Moon Biscuits", category: "Bakery", unit: "pack", menuPrice: "₹80", priceValue: 80 },
+  { id: "salt-biscuits", name: "Salt Biscuits", category: "Bakery", unit: "pack", menuPrice: "₹80", priceValue: 80 },
+  { id: "almond-sticks", name: "Almond Sticks", category: "Bakery", unit: "pack", menuPrice: "₹100", priceValue: 100 },
+  { id: "kaju-biscuits", name: "Kaju Biscuits", category: "Bakery", unit: "pack", menuPrice: "₹100", priceValue: 100 },
+  { id: "ragi-oats-cookies", name: "Ragi Oats Cookies", category: "Bakery", unit: "pack", menuPrice: "₹120", priceValue: 120 },
+  { id: "boost-biscuits", name: "Boost Biscuits", category: "Bakery", unit: "pack", menuPrice: "₹110", priceValue: 110 },
+  { id: "red-velvet-cookies", name: "Red Velvet Cookies", category: "Bakery", unit: "pack", menuPrice: "₹110", priceValue: 110 },
+  { id: "oatmeal-cookies", name: "Oatmeal Cookies", category: "Bakery", unit: "pack", menuPrice: "₹160", priceValue: 160 },
+  { id: "milk-bread", name: "Milk Bread", category: "Bakery", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "brown-bread", name: "Brown Bread", category: "Bakery", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "fruit-bread", name: "Fruit Bread", category: "Bakery", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "milk-bun", name: "Milk Bun", category: "Bakery", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "pav-bun", name: "Pav Bun", category: "Bakery", unit: "pack", menuPrice: "₹40", priceValue: 40 },
+  { id: "coconut-bun", name: "Coconut Bun", category: "Bakery", unit: "pc", menuPrice: "₹100/pc", priceValue: 100 },
+  { id: "milk-rusk", name: "Milk Rusk", category: "Bakery", unit: "pack", menuPrice: "₹50", priceValue: 50 },
+  { id: "brown-rusk", name: "Brown Rusk", category: "Bakery", unit: "pack", menuPrice: "₹60", priceValue: 60 },
+  { id: "baby-rusk", name: "Baby Rusk", category: "Bakery", unit: "pack", menuPrice: "₹50", priceValue: 50 },
+  { id: "khasta-rusk", name: "Khasta Rusk", category: "Bakery", unit: "pack", menuPrice: "₹50", priceValue: 50 },
+
+  // ========== PUFFS & HOT ==========
+  { id: "chicken-puff", name: "Chicken Puff", category: "Hot", unit: "pc", menuPrice: "₹30/pc", priceValue: 30, featured: true },
+  { id: "chicken-roll", name: "Chicken Roll", category: "Hot", unit: "pc", menuPrice: "₹35/pc", priceValue: 35 },
+  { id: "egg-puff", name: "Egg Puff", category: "Hot", unit: "pc", menuPrice: "₹25/pc", priceValue: 25 },
+  { id: "veg-puff", name: "Veg Puff", category: "Hot", unit: "pc", menuPrice: "₹20/pc", priceValue: 20 },
+  { id: "paneer-puff", name: "Paneer Puff", category: "Hot", unit: "pc", menuPrice: "₹35/pc", priceValue: 35 },
+  { id: "full-egg-puff", name: "Full Egg Puff", category: "Hot", unit: "pc", menuPrice: "₹35/pc", priceValue: 35 },
+  { id: "chicken-keema-puff", name: "Chicken Keema Puff", category: "Hot", unit: "pc", menuPrice: "₹45/pc", priceValue: 45 },
+  { id: "chicken-leg-puff", name: "Chicken Leg Puff", category: "Hot", unit: "pc", menuPrice: "₹90/pc", priceValue: 90 },
+  { id: "chicken-hot-dog", name: "Chicken Hot Dog", category: "Hot", unit: "pc", menuPrice: "₹90/pc", priceValue: 90 },
+  { id: "paneer-hot-dog", name: "Paneer Hot Dog", category: "Hot", unit: "pc", menuPrice: "₹70/pc", priceValue: 70 },
+  { id: "chicken-cheese-bread", name: "Chicken Cheese Bread", category: "Hot", unit: "pc", menuPrice: "₹100/pc", priceValue: 100 },
+  { id: "chicken-leg", name: "Chicken Leg", category: "Hot", unit: "pc", menuPrice: "₹70/pc", priceValue: 70 },
+  { id: "dilpasand", name: "Dilpasand", category: "Hot", unit: "pc", menuPrice: "₹50/pc", priceValue: 50 },
+
+  // ========== DESSERTS ==========
+  { id: "rasmalai", name: "Rasmalai", category: "Desserts", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "basundi", name: "Basundi", category: "Desserts", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "junnu", name: "Junnu", category: "Desserts", unit: "pc", menuPrice: "₹40/pc", priceValue: 40 },
+  { id: "donut", name: "Donut", category: "Desserts", unit: "pc", menuPrice: "₹60/pc", priceValue: 60 },
+  { id: "choco-lava", name: "Choco Lava", category: "Desserts", unit: "pc", menuPrice: "₹60/pc", priceValue: 60, featured: true },
+  { id: "brownie", name: "Brownie", category: "Desserts", unit: "pc", menuPrice: "₹60/pc", priceValue: 60 },
+
+  // ========== BEVERAGES ==========
+  { id: "badam-milk", name: "Badam Milk", category: "Beverages", unit: "serving", menuPrice: "₹50", priceValue: 50 },
+  { id: "rose-milk", name: "Rose Milk", category: "Beverages", unit: "serving", menuPrice: "₹60", priceValue: 60 },
+  { id: "monster", name: "Monster", category: "Beverages", unit: "serving", menuPrice: "₹125", priceValue: 125 },
+  { id: "red-bull", name: "Red Bull", category: "Beverages", unit: "serving", menuPrice: "₹125", priceValue: 125 },
+  { id: "mogu-mogu", name: "Mogu Mogu", category: "Beverages", unit: "serving", menuPrice: "₹70", priceValue: 70 },
+  { id: "basil-seed-drink", name: "Basil Seed Drink", category: "Beverages", unit: "serving", menuPrice: "₹70", priceValue: 70 }
+]
